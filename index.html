@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm kiếm tuần tự</title>
+    <!-- Liên kết file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Tìm kiếm tuần tự</h2>
+
+    <!-- Khung nhập dữ liệu -->
+    <div class="input-box">
+        <textarea id="inputData" placeholder="Nhập các số, cách nhau bởi dấu phẩy..."></textarea>
+    </div>
+
+    <!-- Khung nhập giá trị cần tìm -->
+    <div class="input-box">
+        <input type="text" id="searchValue" placeholder="Nhập giá trị cần tìm">
+    </div>
+
+    <!-- Nút tìm kiếm -->
+    <button onclick="sequentialSearch()">Tìm kiếm</button>
+
+    <!-- Khung hiển thị kết quả -->
+    <div class="output-box" id="outputResult"></div>
+</div>
+
+<!-- Liên kết file JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
